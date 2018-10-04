@@ -1,0 +1,306 @@
+/*** 
+
+====================================================================
+	Custom Property Details Section
+====================================================================
+
+***/
+
+.property-details{
+	position:relative;
+	background:#16232b;
+	color:#ffffff;
+	overflow:hidden;
+}
+
+.property-details .image-column-1{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:40%;
+	height:100%;
+	background-position:right center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.property-details .image-column-1 .hidden-image{
+	display:none;	
+}
+
+.circle-map{
+    position:relative;
+	width:400px;
+	height:400px;
+	margin:0 auto;
+	overflow:hidden;
+	-ms-border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+}
+
+.content-column .styled-list-one li{
+    line-height: 20px;
+    margin-bottom: 4px;
+    position: relative;
+	padding-left:30px;
+	color:#ffffff;
+	font-size:15px;
+}
+
+.contact-section .outer-box .inner-box .info-block .conicon {
+    position:absolute;
+	color: #367443;
+	font-size:20px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+}
+.contact-section .agent-column .trxt strong {
+    margin-left: 30px;
+}
+
+.trxt-2{
+   font-size: 30px;
+    margin-bottom: 40px;
+    margin-left:10px;
+    font-weight: 200;
+}
+.styled-list-one li {
+    font-size: 18px;
+}
+
+/*** 
+
+====================================================================
+	Home Page - Home Models Section
+====================================================================
+
+***/
+
+ .sponsor-item .img-in {
+  color: #367443;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.sponsors-section .sponsor-item .overlay {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  opacity: 0;
+  transition: .5s ease;
+  background-image: radial-gradient(#ffffff 40%, #367443);
+}
+
+.sponsor-item:hover .overlay {
+  opacity: .9;
+  border: 5px solid #367443;
+}
+
+
+
+/*** 
+
+====================================================================
+	Home Page - slider box section
+====================================================================
+
+***/
+
+
+.inthm {
+    position: relative;
+    padding: 12px 26px;
+    text-transform: capitalize;
+    background: #253d4a;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #367443;
+    text-align: center;
+}
+.inthm:hover {
+    color: #ffffff;
+    background-color: #418c51;
+    border: 2px solid #ffffff;
+}
+
+
+/*** 
+
+====================================================================
+	Specifications
+====================================================================
+
+***/
+
+
+.tabbed-floor-plans .floors-content li{
+    color: #253d4a;
+}
+
+.tabbed-floor-plans .floors-content strong{
+    color: #367443;
+}
+
+
+
+/*** 
+
+====================================================================
+	Amenities - hover effect
+====================================================================
+
+***/
+
+
+.snip1355 {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  max-width: 370px;
+  max-height: 260px;
+  width: 100%;
+  color: #ffffff;
+  text-align: right;
+  background-color: #000000;
+}
+.snip1355 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.snip1355 img {
+  opacity: 1;
+  width: 100%;
+  -webkit-transform: scale(1.1) translateY(3%);
+  transform: scale(1.1) translateY(3%);
+}
+.snip1355:after,
+.snip1355:before {
+  -webkit-transition: all 0.5s 0s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  transition: all 0.5s 0s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  z-index: 1;
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+.snip1355:after {
+  top: 35%;
+  left: 40%;
+  -webkit-transform: translate(-40%, 100%);
+  transform: translate(-40%, 100%);
+  border-width: 150px 200px;
+  border-color: transparent #418c51 #418c51 #367443;
+}
+.snip1355:before {
+  bottom: 0%;
+  left: 50%;
+  -webkit-transform: translate(-45%, 100%);
+  transform: translate(-45%, 100%);
+  border-width: 0 180px 140px 180px;
+  border-color: transparent transparent #295933 transparent;
+}
+.snip1355 figcaption {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.snip1355 h2 {
+  margin: 0;
+  opacity: 0;
+  padding: 20px 20px;
+  font-weight: 400;
+  font-size: 26px;
+  text-transform: uppercase;
+  -webkit-transform: translateY(20%);
+  transform: translateY(20%);
+}
+.snip1355 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 2;
+}
+.snip1355:hover img,
+.snip1355.hover img {
+  -webkit-transform: scale(1.1) translateY(-3%);
+  transform: scale(1.1) translateY(-3%);
+  opacity: 0.4;
+}
+.snip1355:hover:before,
+.snip1355.hover:before,
+.snip1355:hover:after,
+.snip1355.hover:after {
+  -webkit-transition: all 0.4s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.4s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.snip1355:hover:before,
+.snip1355.hover:before {
+  -webkit-transform: translate(-45%, 0);
+  transform: translate(-45%, 0);
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.snip1355:hover:after,
+.snip1355.hover:after {
+  -webkit-transform: translate(-40%, 0);
+  transform: translate(-40%, 0);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+.snip1355:hover figcaption h2,
+.snip1355.hover figcaption h2 {
+  opacity: 1;
+  -webkit-transform: translate(0px);
+  transform: translate(0px);
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+
+/*** 
+
+====================================================================
+	Amenities - hover effect
+====================================================================
+
+***/
+.contact-form-section .conicon {
+    color: #367443;
+    font-size: 20px;
+}
+
+
+/*** 
+
+====================================================================
+	404 page formatting
+====================================================================
+
+***/
+
+.red-riding {
+    position: relative;
+    padding: 0px 0px 300px 70px;
+}
+
+
+.red-riding h2 div {
+    padding: 30px;
+}
