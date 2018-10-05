@@ -20,7 +20,7 @@ if ( $senderName && $senderEmail && $subject && $message) {
   $success = mail( $recipient, $headers, $msgBody );
 
   //Set Location After Successsfull Submission
-  header('Location: contact.html');
+  header('Location: thankyou.html');
 }
 
 else{
