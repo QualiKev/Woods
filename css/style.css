@@ -831,8 +831,8 @@ ul,li{
 
 .main-menu .navigation > li{
 	position:relative;
-	float:left;
-	padding:0px;
+	float:left; 
+    padding:0px;	
 }
 
 .sticky-header .main-menu .navigation > li{
