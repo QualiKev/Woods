@@ -40,6 +40,21 @@
 	border-radius:50%;
 }
 
+@media only screen and (max-width: 450px) {
+    .circle-map{
+    position:relative;
+	width:300px;
+	height:300px;
+	margin:0 auto;
+	overflow:hidden;
+	-ms-border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+}
+
+}
+
 .content-column .styled-list-one li{
     line-height: 20px;
     margin-bottom: 4px;
@@ -303,4 +318,102 @@
 
 .red-riding h2 div {
     padding: 30px;
+}
+
+/*** 
+
+====================================================================
+	Contact Page Box Formatting
+====================================================================
+
+***/
+
+
+.contact-section .agent-column .inner-box {
+    margin-left: 0px;
+}
+
+/*** 
+
+====================================================================
+	Index Page - Hubspot Form Styling
+====================================================================
+
+***/
+
+.form-column .inner-box .hs-input {
+    width: 100%;
+    padding: 10px 18px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.form-column .inner-box .hs-message {
+    width: 100%;
+}
+
+.form-column .inner-box .hs-input textarea {
+    color: black;
+}
+
+.form-column .inner-box .hs-submit {
+    margin-top: 20px;
+}
+
+.form-column .inner-box .hs-button {
+    padding: 12px 26px;
+    background-color: #367443;
+    
+}
+
+.form-column .inner-box .hs-form * {
+    font-weight: 300;
+    line-height: 2rem;
+}
+
+.form-column ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: darkgrey;
+    opacity: 1; /* Firefox */
+}
+
+.form-column input[type=submit] {
+    text-transform: uppercase;
+}
+
+/*** 
+
+====================================================================
+	Contact Us Page - Hubspot Form Styling
+====================================================================
+
+***/
+
+.contactform input {
+    border: 2px solid green;
+}
+
+.contactform textarea {
+    border: 2px solid green;
+}
+
+
+.contactform input[type=submit] {
+    color: white;
+    text-transform: uppercase;
+}
+
+.contactform ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: darkgray;
+    opacity: 1; /* Firefox */
+}
+
+.contactform label {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }

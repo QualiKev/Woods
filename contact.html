@@ -184,7 +184,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="outer-box">
                 <div class="row clearfix">
                     <!--Contact Info-->
-                    <div class="agent-column col-md-5 col-sm-12 col-xs-12">
+                    <div class="agent-column  col-lg-6 col-md-6 col-sm-5 col-xs-12">
                         <div class="inner-box">
                             <h5><strong>Interested in The Woods?</strong> Call, email, come by, or fill out the form to get in contact.</h5><br>
                             <div class="row clearfix">
@@ -199,27 +199,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         </div>
                     </div>
                     <!--Form Column-->
-                    <div class="form-column col-md-7 col-sm-12 col-xs-12">    
-                        <div class="default-form">
-                            <form method="post" action="sendemail.php" id="contact-form">
-                                <div class="clearfix">
-                                    <div class="form-group col-md-12 col-xs-12">
-                                    	<input type="text" name="username" value="" placeholder="Your Name" required>
-                                    </div>
-                                    <div class="form-group col-md-6 col-xs-12">
-                                    	<input type="email" name="email" value="" placeholder="Your Email" required>
-                                    </div>
-                                    <div class="form-group col-md-6 col-xs-12">
-                                    	<input type="text" name="phone" value="" placeholder="Your Phone" required>
-                                    </div>
-                                    <div class="form-group col-md-12 col-xs-12">
-                                        <div class="form-group">
-                                            <textarea name="message" placeholder="Your Message"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="text-right"><button type="submit" id="contactuspage" class="theme-btn btn-style-six">Submit Now</button></div>
-                            </form>
+                    <div class="form-column col-lg-6 col-md-6 col-sm-7 col-xs-12">
+                        <div class="inner-box contactform">
+                            <!--
+                        <div class="form-group">
+                            <input type="text" name="username" value="" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="useremail" value="" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="phone" value="" placeholder="Your Phone" required>
+                        </div>
+                        -->
+                        <!--[if lte IE 8]>
+                        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+                        <![endif]-->
+                        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+                        <script>
+                            hbspt.forms.create({
+                                        portalId: "2039341",
+                                        formId: "acdf91d1-9908-4a47-8cf5-3f29455d2f0e"
+                            });
+                        </script>
                         </div>
                     </div>
                 </div>
